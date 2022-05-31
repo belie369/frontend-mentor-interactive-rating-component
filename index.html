@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
@@ -14,15 +14,66 @@
 </head>
 
 <body>
+  <main>
+    <section class="component">
+
+      <div class="component__evaluation">
+        <div class="component__evaluation-icon"><img src="./images/icon-star.svg" alt="star" class="circle-star"></div>
+        <h1 class="component__evaluation-headline">How did we do?</h1>
+        <div class="component__evaluation-text">
+          <p>Please let us know how we did with your support request. All feedback is appriciated to help us improve our
+            offering.
+          </p>
+        </div>
+        <div class="component__evaluation-numbers">
+          <div class="component__evaluation-circle">
+            <input type="radio" id="1" value="1">
+            <label for="1">1</label>
+          </div>
+          <div class="component__evaluation-circle">
+            <input type="radio" id="2" value="2">
+            <label for="2">2</label>
+          </div>
+          <div class="component__evaluation-circle">
+            <input type="radio" id="3" value="3">
+            <label for="3">3</label>
+          </div>
+          <div class="component__evaluation-circle">
+            <input type="radio" id="4" value="4">
+            <label for="4">4</label>
+          </div>
+          <div class="component__evaluation-circle">
+            <input type="radio" id="5" value="5">
+            <label for="5">5</label>
+          </div>
+        </div>
+        <button class="component__evaluation-submit">Submit</button>
+      </div>
 
 
+      <div class="component__thankyou">
+        <img class="component__thankyou-illustration" src="./images/illustration-thank-you.svg"
+          alt="Thank You Illustration">
+        <div class="component__thankyou-about">
+          <p>You selected <span class="component__thankyou-rating"></span> out of 5</p>
+        </div>
+        <h1 class="compontnt__thankyou-heading">Thank you!</h1>
+        <div class="component__thankyou-text">
+          <p>We appreciate you taking the time
+            to give a rating. If you ever need more support, don’t hesitate to get
+            in touch!</p>
+        </div>
+      </div>
 
+    </section>
+  </main>
   <footer class="footer">
     <div class="footer__attribution">
       <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
         Coded by <a href="https://github.com/belie369/" target="_blank">Katarzyna Derbich</a>.</p>
     </div>
   </footer>
+  <script src="./script/script.js"></script>
 </body>
 
 </html>
