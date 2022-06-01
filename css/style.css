@@ -17,4 +17,95 @@ body {
   font-size: 1.5rem;
   color: hsl(217deg, 12%, 63%);
   background-color: hsl(216deg, 12%, 8%);
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+.component {
+  min-height: 360px;
+  max-width: 328px;
+  padding: 2.2em 1.6em;
+  background-color: hsl(213deg, 19%, 18%);
+  border-radius: 1em;
+}
+.component__evaluation-icon {
+  display: block;
+}
+.component__evaluation-circle-star {
+  padding: 1em;
+  background-color: hsla(216deg, 12%, 54%, 0.2);
+  border-radius: 50%;
+}
+.component__evaluation-headline {
+  margin: 0.8em 0 0.6em;
+  color: hsl(0deg, 0%, 100%);
+  font-size: 2.2rem;
+}
+.component__evaluation-text {
+  margin-bottom: 2.1em;
+  font-size: 1.4rem;
+  line-height: 1.5em;
+}
+.component__evaluation-numbers {
+  margin-bottom: 1.6em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.component__evaluation-circle {
+  padding: 0.8em 1.2em;
+  background-color: hsla(216deg, 12%, 54%, 0.2);
+  border-radius: 50%;
+  -webkit-transition: color 0.3s, background-color 0.3s;
+  transition: color 0.3s, background-color 0.3s;
+  cursor: pointer;
+}
+.component__evaluation-circle:hover {
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(25deg, 97%, 53%);
+}
+.component__evaluation-circle--selected {
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(217deg, 12%, 63%);
+}
+.component__evaluation-circle input[type=radio] {
+  display: none;
+}
+.component__evaluation-submit {
+  padding: 1em;
+  border: none;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(25deg, 97%, 53%);
+  font-weight: bold;
+  border-radius: 2em;
+  -webkit-transition: color 0.3s, background-color 0.3s;
+  transition: color 0.3s, background-color 0.3s;
+  cursor: pointer;
+}
+.component__evaluation-submit:hover {
+  color: hsl(25deg, 97%, 53%);
+  background-color: hsl(0deg, 0%, 100%);
+}
+.component__thankyou {
+  display: none;
 }/*# sourceMappingURL=style.css.map */

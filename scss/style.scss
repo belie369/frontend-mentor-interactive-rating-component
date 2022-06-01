@@ -19,3 +19,93 @@ body {
 	color: $light-grey;
 	background-color: $very-dark-blue;
 }
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.component {
+	min-height: 360px;
+	// width: 85%;
+	max-width: 328px;
+	padding: 2.2em 1.6em;
+	background-color: $dark-blue;
+	border-radius: 1em;
+
+	&__evaluation-icon {
+		display: block;
+	}
+
+	&__evaluation-circle-star {
+		padding: 1em;
+		background-color: $medium-grey;
+		border-radius: 50%;
+	}
+
+	&__evaluation-headline {
+		margin: 0.8em 0 0.6em;
+		color: $white;
+		font-size: 2.2rem;
+	}
+
+	&__evaluation-text {
+		margin-bottom: 2.1em;
+		font-size: 1.4rem;
+		line-height: 1.5em;
+	}
+
+	&__evaluation-numbers {
+		margin-bottom: 1.6em;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__evaluation-circle {
+		padding: 0.8em 1.2em;
+		background-color: $medium-grey;
+		border-radius: 50%;
+		transition: color 0.3s, background-color 0.3s;
+		cursor: pointer;
+
+		&:hover {
+			color: $white;
+			background-color: $orange;
+		}
+
+		&--selected {
+			color: $white;
+			background-color: $light-grey;
+		}
+
+		input[type='radio'] {
+			display: none;
+		}
+	}
+
+	&__evaluation-submit {
+		padding: 1em;
+		border: none;
+		width: 100%;
+		text-transform: uppercase;
+		letter-spacing: 0.5em;
+		color: $white;
+		background-color: $orange;
+		font-weight: bold;
+		border-radius: 2em;
+		transition: color 0.3s, background-color 0.3s;
+		cursor: pointer;
+
+		&:hover {
+			color: $orange;
+			background-color: $white;
+		}
+	}
+
+	&__thankyou {
+		display: none;
+	}
+}
