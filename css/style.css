@@ -46,7 +46,7 @@ a:hover {
 .component {
   min-height: 360px;
   max-width: 328px;
-  padding: 2.2em 1.6em;
+  padding: 1.6em 1.6em 2.1em;
   background-color: hsl(213deg, 19%, 18%);
   border-radius: 1em;
 }
@@ -54,12 +54,12 @@ a:hover {
   display: block;
 }
 .component__evaluation-circle-star {
-  padding: 1em;
+  padding: 0.8em;
   background-color: hsla(216deg, 12%, 54%, 0.2);
   border-radius: 50%;
 }
 .component__evaluation-headline {
-  margin: 0.8em 0 0.6em;
+  margin: 1em 0;
   color: hsl(0deg, 0%, 100%);
   font-size: 2.2rem;
 }
