@@ -19,6 +19,17 @@ body {
   background-color: hsl(216deg, 12%, 8%);
 }
 
+a {
+  color: hsl(0deg, 0%, 100%);
+  text-decoration: none;
+  font-weight: normal;
+  -webkit-transition: color 0.3s ease-in;
+  transition: color 0.3s ease-in;
+}
+a:hover {
+  color: hsl(25deg, 97%, 53%);
+}
+
 .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -111,4 +122,14 @@ body {
 }
 .component__thankyou {
   display: none;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  padding: 0.7em 0.5em;
+}
+.footer__attribution {
+  font-size: 1.2rem;
+  font-weight: normal;
 }/*# sourceMappingURL=style.css.map */

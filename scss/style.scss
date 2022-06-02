@@ -20,6 +20,17 @@ body {
 	background-color: $very-dark-blue;
 }
 
+a {
+	color: $white;
+	text-decoration: none;
+	font-weight: normal;
+	transition: color 0.3s ease-in;
+
+	&:hover {
+		color: $orange;
+	}
+}
+
 .wrapper {
 	display: flex;
 	justify-content: center;
@@ -110,5 +121,16 @@ body {
 
 	&__thankyou {
 		display: none;
+	}
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	padding: 0.7em 0.5em;
+
+	&__attribution {
+		font-size: 1.2rem;
+		font-weight: normal;
 	}
 }
