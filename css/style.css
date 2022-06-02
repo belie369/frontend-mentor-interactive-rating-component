@@ -70,8 +70,11 @@ body {
           align-items: center;
 }
 .component__evaluation-circle {
-  padding: 0.8em 1.2em;
+  width: 40px;
+  height: 40px;
+  color: hsl(217deg, 12%, 63%);
   background-color: hsla(216deg, 12%, 54%, 0.2);
+  border: none;
   border-radius: 50%;
   -webkit-transition: color 0.3s, background-color 0.3s;
   transition: color 0.3s, background-color 0.3s;
