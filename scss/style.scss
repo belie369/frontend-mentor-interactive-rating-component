@@ -39,12 +39,15 @@ a {
 }
 
 .component {
-	min-height: 360px;
-	// width: 85%;
-	max-width: 328px;
-	padding: 1.6em 1.6em 2.1em;
-	background-color: $dark-blue;
-	border-radius: 1em;
+	
+	&__evaluation {
+		display: block;
+		min-height: 360px;
+		max-width: 328px;
+		padding: 1.6em 1.6em 2.1em;
+		background-color: $dark-blue;
+		border-radius: 1em;
+	}
 
 	&__evaluation-icon {
 		display: block;
