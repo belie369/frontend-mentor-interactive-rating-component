@@ -44,15 +44,12 @@ a:hover {
 }
 
 .component__evaluation {
-  display: none;
+  display: block;
   min-height: 360px;
   max-width: 328px;
   padding: 1.6em 1.6em 2.1em;
   background-color: hsl(213deg, 19%, 18%);
   border-radius: 1em;
-}
-.component__evaluation-icon {
-  display: block;
 }
 .component__evaluation-circle-star {
   padding: 0.8em;
@@ -122,7 +119,7 @@ a:hover {
   background-color: hsl(0deg, 0%, 100%);
 }
 .component__thankyou {
-  display: block;
+  display: none;
   min-height: 360px;
   max-width: 328px;
   padding: 2.2em 1.6em 2.8em;
@@ -164,4 +161,48 @@ a:hover {
 .footer__attribution {
   font-size: 1.2rem;
   font-weight: normal;
+}
+
+.fade-out {
+  -webkit-animation: fade-out 0.4s;
+          animation: fade-out 0.4s;
+}
+
+.fade-in {
+  -webkit-animation: fade-in 0.4s;
+          animation: fade-in 0.4s;
+}
+
+@-webkit-keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }/*# sourceMappingURL=style.css.map */
