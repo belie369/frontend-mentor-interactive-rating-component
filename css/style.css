@@ -205,4 +205,24 @@ a:hover {
   100% {
     opacity: 1;
   }
+}
+@media (min-width: 992px) {
+  .component__evaluation {
+    min-height: 415px;
+    max-width: 328px;
+    padding: 2.1em;
+  }
+  .component__evaluation-circle-star {
+    padding: 1.1em;
+  }
+}
+@media (min-width: 992px) {
+  .component__evaluation {
+    min-height: 415px;
+    max-width: 328px;
+    padding: 2.1em;
+  }
+  .component__evaluation-circle-star {
+    padding: 1.1em;
+  }
 }/*# sourceMappingURL=style.css.map */
