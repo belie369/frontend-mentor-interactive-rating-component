@@ -18,6 +18,7 @@
 
 		&__evaluation-text {
 			margin-bottom: 2.3em;
+			font-size: 1.5rem;
 		}
 
 		&__evaluation-numbers {
@@ -32,6 +33,34 @@
 
 		&__evaluation-submit {
 			padding: 1.1em 1em;
+		}
+
+		&__thankyou {
+			min-height: 415px;
+			min-width: 411px;
+			padding: 2.9em 2.2em;
+		}
+
+		&__thankyou-icon {
+			margin-bottom: 2em;
+		}
+
+		&__thankyou-about {
+			margin-bottom: 2.7em;
+		}
+
+		&__thankyou-about-round {
+			padding: 0.4em 0.9em;
+		}
+
+		&__thankyou-heading {
+			margin-bottom: 1em;
+		}
+
+		&__thankyou-text {
+			font-size: 1.5rem;
+			line-height: 1.6em;
+			width: 99%;
 		}
 	}
 }
