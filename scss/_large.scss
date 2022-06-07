@@ -1,0 +1,37 @@
+@media (min-width: 992px) {
+	.component {
+		&__evaluation {
+			min-height: 415px;
+			min-width: 411px;
+			padding: 2.1em;
+		}
+
+		&__evaluation-circle-star {
+			padding: 1.1em;
+		}
+
+		&__evaluation-headline {
+			margin: 1.6em 0 1em;
+			font-size: 2.3rem;
+			font-weight: 700;
+		}
+
+		&__evaluation-text {
+			margin-bottom: 2.3em;
+		}
+
+		&__evaluation-numbers {
+			margin-bottom: 2em;
+		}
+
+		&__evaluation-circle {
+			width: 50px;
+			height: 50px;
+			font-weight: bold;
+		}
+
+		&__evaluation-submit {
+			padding: 1.1em 1em;
+		}
+	}
+}

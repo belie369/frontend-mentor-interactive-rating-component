@@ -105,7 +105,7 @@ a:hover {
   border: none;
   width: 100%;
   text-transform: uppercase;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.2em;
   color: hsl(0deg, 0%, 100%);
   background-color: hsl(25deg, 97%, 53%);
   font-weight: bold;
@@ -209,20 +209,58 @@ a:hover {
 @media (min-width: 992px) {
   .component__evaluation {
     min-height: 415px;
-    max-width: 328px;
+    min-width: 411px;
     padding: 2.1em;
   }
   .component__evaluation-circle-star {
     padding: 1.1em;
+  }
+  .component__evaluation-headline {
+    margin: 1.6em 0 1em;
+    font-size: 2.3rem;
+    font-weight: 700;
+  }
+  .component__evaluation-text {
+    margin-bottom: 2.3em;
+  }
+  .component__evaluation-numbers {
+    margin-bottom: 2em;
+  }
+  .component__evaluation-circle {
+    width: 50px;
+    height: 50px;
+    font-weight: bold;
+  }
+  .component__evaluation-submit {
+    padding: 1.1em 1em;
   }
 }
 @media (min-width: 992px) {
   .component__evaluation {
     min-height: 415px;
-    max-width: 328px;
+    min-width: 411px;
     padding: 2.1em;
   }
   .component__evaluation-circle-star {
     padding: 1.1em;
+  }
+  .component__evaluation-headline {
+    margin: 1.6em 0 1em;
+    font-size: 2.3rem;
+    font-weight: 700;
+  }
+  .component__evaluation-text {
+    margin-bottom: 2.3em;
+  }
+  .component__evaluation-numbers {
+    margin-bottom: 2em;
+  }
+  .component__evaluation-circle {
+    width: 50px;
+    height: 50px;
+    font-weight: bold;
+  }
+  .component__evaluation-submit {
+    padding: 1.1em 1em;
   }
 }/*# sourceMappingURL=style.css.map */
