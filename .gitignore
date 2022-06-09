@@ -15,7 +15,6 @@
 .DS_Store
 .prettierignore
 
-README.md
 README-org.md
 README-template.md
 style-guide.md
