@@ -7,7 +7,7 @@ const thankyouRating = document.querySelector('.component__thankyou-rating');
 let selectedValue = 0;
 
 const checkCircle = (e) => {
-	numberBtns.forEach((el) => el.classList.remove('component__evaluation-circle--selected'));
+	numberBtns.forEach((btn) => btn.classList.remove('component__evaluation-circle--selected'));
 	e.target.classList.toggle('component__evaluation-circle--selected');
 	selectValue(e);
 	showScore();
@@ -35,4 +35,4 @@ const showThankyou = () => {
 };
 
 submitBtn.addEventListener('click', showThankyou);
-numberBtns.forEach((el) => el.addEventListener('click', checkCircle));
+numberBtns.forEach((btn) => btn.addEventListener('click', checkCircle));
