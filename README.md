@@ -28,11 +28,13 @@ Users should be able to:
 
 - Mobile Solution (375px width):
 
-  ![](./screenshot_mobile.png)
+  ![](./screenshot_mobile1.png)
+  ![](./screenshot_mobile2.png)
 
 - Desktop Solution (1920px width):
 
-  ![](./screenshot_desktop.png)
+  ![](./screenshot_desktop1.png)
+  ![](./screenshot_desktop2.png)
 
 ### Links
 
